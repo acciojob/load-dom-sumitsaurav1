@@ -1,4 +1,4 @@
 /*  your css code here. If applicable */
 document.addEventListener("DOMContentLoaded",(e)=>{
-	document.body.innerText="DOM load success"
+	document.head.innerText="DOM load success"
 })

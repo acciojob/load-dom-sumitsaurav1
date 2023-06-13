@@ -1,4 +1,6 @@
 /*  your css code here. If applicable */
 document.addEventListener("DOMContentLoaded",(e)=>{
-	document.write( "DOM load success");
+	let p = document.createElement("p");
+	p.textContent="DOM load success"
+	document.body.appendChild(p)
 })
